@@ -83,6 +83,63 @@ header {
   box-shadow: 0 0 #1a16fb;
 }
 
+@media (max-width: 1800px) {
+  .header {
+    width: 1600px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1600px) {
+  .header {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1400px) {
+  .header {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .navMenu {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1000px) {
+  .header {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .navMenu__menu {
+    margin-left: -50px;
+  }
+  .navMenu__menu ul li {
+    margin-left: -15px;
+  }
+  .navMenu__register {
+    margin-left: -50px;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .navMenu__icon img {
+    width: 100px;
+  }
+  .navMenu__register {
+    margin-left: -50px;
+  }
+  .navMenu__free-trial button {
+    padding: 10px 15px;
+  }
+}
 a {
   text-decoration: none;
 }
