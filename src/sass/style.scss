@@ -1,4 +1,12 @@
-header{
-  width: 1500px;
-  margin: auto 0;
+@import "blocks/header.scss";
+
+$ui-index-1: 1; //Для наползающих элементов в общем потоке
+$ui-index-2: 2; //Для наползающих элементов в общем потоке
+$ui-index-3: 3; //Для масок
+$ui-index-4: 4; //Для сайдбаров
+$ui-index-5: 5; //Для модалок
+$ui-index-6: 6; //Для элементов, перекрывающих все
+
+a{
+  text-decoration: none;
 }
