@@ -13,6 +13,13 @@ a{
   text-decoration: none;
 }
 
-.text{
-    //font-size: ;
+.title{
+  &__text{
+    &-header{
+      margin: 100px 0px;
+
+      font-size: 60px;
+      font-weight: 700;
+    }
+  }
 }

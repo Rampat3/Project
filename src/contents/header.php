@@ -71,15 +71,20 @@
             </ul>
         </div>
         <div class="navMenu__free-trial">
-            <button type="button" class="navMenu__free-blur">Start Free Trial →</button>
+            <button type="button">Start Free Trial →</button>
         </div>
     </div>
 </section>
 <section class="promo">
     <div class="promo__header">
         <div class="promo__header-text">
-            <h1>All-in-one dashboard for eCommerce</h1>
+            <h1 class="title__text-header">All-in-one dashboard for eCommerce</h1>
+            <img src="../../src/img/line.png" alt="">
+            <p>Itech helps you unify your brand identity by collecting, storing and distributing design tokens and assets - automatically.</p>
+            <form class="promo__header-form" action="#">
+                <input type="text" placeholder="Your email address">
+                <button>Get Early Access</button>
+            </form>
         </div>
     </div>
 </section>
-

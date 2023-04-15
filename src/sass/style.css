@@ -64,9 +64,6 @@ header {
   color: #167ffb;
   font-weight: 500;
 }
-.navMenu__free-blur {
-  box-shadow: 10px 10px 10px #167ffb;
-}
 .navMenu__free-trial button {
   border-radius: 30px;
   border: none;
@@ -84,6 +81,49 @@ header {
   transform: scale(1);
   transition: 0.5s;
   box-shadow: 0 0 #1a16fb;
+}
+
+.promo__header {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.promo__header-text img {
+  margin: -238px 0px 0px 30px;
+  width: 400px;
+}
+.promo__header-text p {
+  color: darkgray;
+  font-size: 19px;
+  margin-top: -70px;
+}
+.promo__header-form {
+  position: relative;
+  margin: 5em;
+}
+.promo__header-form input {
+  display: block;
+  width: 100%;
+  height: 4em;
+  line-height: 3em;
+  border: 1px solid darkgray;
+  padding: 0 1.5em;
+  -moz-border-radius: 2.5em;
+  -webkit-border-radius: 2.5em;
+  background-color: white;
+}
+.promo__header-form button {
+  position: absolute;
+  top: 0.5em;
+  right: 0.4em;
+  height: 2.9em;
+  width: 13em;
+  border: 0px solid;
+  background: #157ff8;
+  -moz-border-radius: 2.5em;
+  -webkit-border-radius: 2.5em;
+  color: white;
+  font-weight: 500;
 }
 
 @media (max-width: 1800px) {
@@ -145,6 +185,12 @@ header {
 }
 a {
   text-decoration: none;
+}
+
+.title__text-header {
+  margin: 100px 0px;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
