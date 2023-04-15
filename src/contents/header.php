@@ -71,9 +71,15 @@
             </ul>
         </div>
         <div class="navMenu__free-trial">
-            <button type="button">Start Free Trial →</button>
+            <button type="button" class="navMenu__free-blur">Start Free Trial →</button>
         </div>
     </div>
 </section>
-
+<section class="promo">
+    <div class="promo__header">
+        <div class="promo__header-text">
+            <h1>All-in-one dashboard for eCommerce</h1>
+        </div>
+    </div>
+</section>
 

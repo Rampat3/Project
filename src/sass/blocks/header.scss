@@ -1,3 +1,5 @@
+//Header
+
 .header{
   width: 1800px;
   margin: 0 auto;
@@ -93,35 +95,44 @@ header{
       }
     }
   }
-  &__free-trial{
-    & button{
-      border-radius: 30px;
-      border: none;
-      background: #167ffb;
-      box-shadow:
-              0 1px #1a16fb,
-              0 2px #1a16fb,
-              0 3px #1a16fb,
-              0 4px #1a16fb,
-              0 5px #1a16fb,
-              0 6px #1a16fb,
-              0 7px #1a16fb;
-      -webkit-transform: translateX(-7px);
-      transform: translateX(-7px);
+  &__free {
 
-      padding: 10px 20px;
-      color: white;
-      font-weight: 500;
+    &-blur {
+      box-shadow: 10px 10px 10px #167ffb;
+    }
 
-      transition: 0.5s;
+    //A3A3FFFF
+    &-trial {
+      & button {
+        border-radius: 30px;
+        border: none;
+        background: #167ffb;
+        box-shadow: 0 1px #1a16fb,
+        0 2px #1a16fb,
+        0 3px #1a16fb,
+        0 4px #1a16fb,
+        0 5px #1a16fb,
+        0 6px #1a16fb,
+        0 7px #1a16fb;
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
 
-      &:hover{
-        -webkit-transform: scale(3.2);
-        transform: scale(1);
+        padding: 10px 20px;
+        color: white;
+        font-weight: 500;
+
         transition: 0.5s;
-        box-shadow: 0 0 #1a16fb;
+
+        &:hover {
+          -webkit-transform: scale(3.2);
+          transform: scale(1);
+          transition: 0.5s;
+          box-shadow: 0 0 #1a16fb;
+        }
       }
     }
   }
 }
+
+//Promo
 
