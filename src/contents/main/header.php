@@ -78,9 +78,9 @@
 <section class="promo">
     <div class="promo__header">
         <div class="promo__header-text">
-            <h1 class="title__text-header">All-in-one dashboard for eCommerce</h1>
-            <img src="../../src/img/line.png" alt="">
-            <p>Itech helps you unify your brand identity by collecting, storing and distributing design tokens and assets - automatically.</p>
+            <h1 class="title__text promo__header-title">All-in-one dashboard for eCommerce</h1>
+            <img src="../../img/line.png" alt="">
+            <p class="title__text-p">Itech helps you unify your brand identity by collecting, storing and distributing design tokens and assets - automatically.</p>
             <form class="promo__header-form" action="#">
                 <input type="text" placeholder="Your email address">
                 <button>Get Early Access</button>
@@ -88,9 +88,4 @@
         </div>
     </div>
     <div class="promo__bg"></div>
-</section>
-<section>
-    <div style="height: 100vh">
-
-    </div>
 </section>

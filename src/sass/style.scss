@@ -1,4 +1,5 @@
 @import "blocks/header.scss";
+@import "blocks/top-reasons.scss";
 
 @import "blocks/media.scss";
 
@@ -9,17 +10,28 @@ $ui-index-4: 4; //Для сайдбаров
 $ui-index-5: 5; //Для модалок
 $ui-index-6: 6; //Для элементов, перекрывающих все
 
-a{
-  text-decoration: none;
+
+ul li{
+  list-style-type: none;
 }
 
 .title{
   &__text{
-    &-header{
       margin: 100px 0px;
 
       font-size: 60px;
       font-weight: 700;
+
+    &-bg{
+      color: #167ffb;
+
+      background: linear-gradient(0deg, #e4f0ff 30%, transparent 50%)
+
+    }
+
+    &-p{
+      color: darkgray;
+      font-size: 19px;
     }
   }
 }

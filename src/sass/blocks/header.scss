@@ -8,7 +8,7 @@
 header{
   background: url("../img/bg-header.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
   display: flow-root;
 }
 
@@ -131,17 +131,18 @@ header{
 //Promo
 .promo{
   &__bg{
-      background: url("../img/header.jpg");
-      background-size: cover;
-      height: 880px;
-
-      //display: flow-root;
-    }
+    background: url("../img/header.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    //display: flow-root;
+  }
 
   &__header{
     width: 700px;
     margin: auto;
+
     text-align: center;
+
     &-text{
 
       & img{
@@ -150,9 +151,6 @@ header{
       }
 
       & p{
-        color: darkgray;
-        font-size: 19px;
-
         margin-top: -70px;
       }
     }

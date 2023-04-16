@@ -12,11 +12,13 @@
     <body>
         <header>
             <?php
-            include "../src/contents/header.php";
+            include "../src/contents/main/header.php";
             ?>
         </header>
-        <section>
-
+        <section class="TopReasons">
+            <?php
+            include "../src/contents/main/top_reasons.php";
+            ?>
         </section>
 
         <script src="../src/js/main.js"></script>

@@ -6,7 +6,7 @@
 header {
   background: url("../img/bg-header.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
   display: flow-root;
 }
 
@@ -84,9 +84,9 @@ header {
 }
 
 .promo__bg {
-  background: url("../img/header.jpg");
+  background: url("../img/header.jpg") no-repeat center center;
   background-size: cover;
-  height: 880px;
+  height: 100vh;
 }
 .promo__header {
   width: 700px;
@@ -98,8 +98,6 @@ header {
   width: 400px;
 }
 .promo__header-text p {
-  color: darkgray;
-  font-size: 19px;
   margin-top: -70px;
 }
 .promo__header-form {
@@ -129,6 +127,59 @@ header {
   -webkit-border-radius: 2.5em;
   color: white;
   font-weight: 500;
+}
+
+.TopReasons {
+  width: 1500px;
+  margin: auto;
+}
+.TopReasons__wrapper {
+  margin: 200px 0;
+}
+.TopReasons__wrapper-title {
+  display: flex;
+  justify-content: center;
+}
+.TopReasons__wrapper-title p {
+  margin: 0 10px;
+}
+.TopReasons__wrapper-text {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+}
+.TopReasons__wrapper-list {
+  margin-top: 50px;
+  border: 1px solid darkgray;
+  border-radius: 60px;
+  background: white;
+  padding: 0 50px;
+}
+.TopReasons__wrapper-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.TopReasons__wrapper-list ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.TopReasons__wrapper-list ul li {
+  margin: 0 55px;
+  display: flex;
+  align-items: center;
+}
+.TopReasons__wrapper-anim {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.TopReasons__wrapper-anim:hover {
+  -webkit-transform: scale(3.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 @media (max-width: 1800px) {
@@ -204,14 +255,22 @@ header {
     width: 10em;
   }
 }
-a {
-  text-decoration: none;
+ul li {
+  list-style-type: none;
 }
 
-.title__text-header {
+.title__text {
   margin: 100px 0px;
   font-size: 60px;
   font-weight: 700;
+}
+.title__text-bg {
+  color: #167ffb;
+  background: linear-gradient(0deg, #e4f0ff 30%, transparent 50%);
+}
+.title__text-p {
+  color: darkgray;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */

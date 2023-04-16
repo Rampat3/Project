@@ -1,0 +1,61 @@
+.TopReasons{
+  width: 1500px;
+  margin: auto;
+  &__wrapper{
+    margin: 200px 0;
+    &-title{
+      display: flex;
+      justify-content: center;
+      & p{
+        margin: 0 10px;
+      }
+    }
+
+    &-text{
+      display: flex;
+      justify-content: center;
+      margin-top: -70px;
+    }
+
+    &-list{
+      margin-top: 50px;
+
+      border: 1px solid darkgray;
+      border-radius: 60px;
+      background: white;
+
+      padding: 0 50px;
+      & a{
+        text-decoration: none;
+
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      & ul{
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20px;
+        & li{
+          margin: 0 55px;
+
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    &-anim{
+      cursor: pointer;
+
+      transition: 0.5s;
+      &:hover{
+        -webkit-transform: scale(3.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 0.5s;
+      }
+    }
+  }
+}
