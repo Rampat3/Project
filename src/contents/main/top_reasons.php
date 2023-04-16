@@ -22,4 +22,29 @@
             <li class="TopReasons__wrapper-anim"><img src="../src/icons/icons-reasons-3.jpg" alt=""><a href="">Worldwide Support</a></li>
         </ul>
     </div>
+    <div class="TopReasons__wrapper-optimized">
+        <div class="TopReasons__wrapper-optimized-text">
+            <div class="TopReasons__wrapper-optimized-title title__text">
+                Optimized User <p class="title__text-bg" style="width: 35vh">Experiences</p>
+            </div>
+            <div class="TopReasons__wrapper-optimized-p">
+                <p class="title__text-p">
+                    The uploading and updating processes made by suppliers
+                    can be streamlined through front-end dashboards that
+                    create better ease of access.
+                </p>
+            </div>
+            <div class="TopReasons__wrapper-optimized-list">
+                <ul>
+                    <li><a href="#">Sales Breakdown & Funnel</a></li>
+                    <li><a href="#">Abadoned Carts</a></li>
+                    <li><a href="#">Revenue by Channel & Device</a></li>
+                    <li><a href="#">Sales Forecast</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="TopReasons__wrapper-optimized-img">
+            <img src="../src/img/optimized-img.jpg" alt="">
+        </div>
+    </div>
 </div>

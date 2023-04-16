@@ -178,6 +178,50 @@ header {
   transform: scale(1.2);
   transition: 0.5s;
 }
+.TopReasons__wrapper-optimized {
+  display: flex;
+  align-items: center;
+}
+.TopReasons__wrapper-optimized-text {
+  width: 40%;
+}
+.TopReasons__wrapper-optimized-title p {
+  margin: 0 0 50px 0;
+}
+.TopReasons__wrapper-optimized-list ul {
+  display: table-row-group;
+}
+.TopReasons__wrapper-optimized-list ul li {
+  background: linear-gradient(to right, rgb(232, 232, 232), rgb(232, 232, 232));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.TopReasons__wrapper-optimized-list ul li a {
+  color: black;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 4;
+  text-decoration: none;
+  cursor: pointer;
+}
+.TopReasons__wrapper-optimized-list ul li a:after {
+  background-color: #5eabf9;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.TopReasons__wrapper-optimized-list ul li a:hover:after, .TopReasons__wrapper-optimized-list ul li a:focus:after {
+  width: 100%;
+}
+.TopReasons__wrapper-optimized-img {
+  width: 60%;
+}
 
 @media (max-width: 1800px) {
   .header {
