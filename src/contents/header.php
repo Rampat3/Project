@@ -87,4 +87,10 @@
             </form>
         </div>
     </div>
+    <div class="promo__bg"></div>
+</section>
+<section>
+    <div style="height: 100vh">
+
+    </div>
 </section>

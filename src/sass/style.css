@@ -83,6 +83,11 @@ header {
   box-shadow: 0 0 #1a16fb;
 }
 
+.promo__bg {
+  background: url("../img/header.jpg");
+  background-size: cover;
+  height: 880px;
+}
 .promo__header {
   width: 700px;
   margin: auto;
@@ -181,6 +186,22 @@ header {
   }
   .navMenu__free-trial button {
     padding: 10px 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .promo__header {
+    width: 550px;
+    margin: auto;
+  }
+  .promo__header-text h1 {
+    font-size: 45px;
+  }
+  .promo__header-text img {
+    width: 320px;
+    margin: -227px 0px 0px 30px;
+  }
+  .promo__header-form button {
+    width: 10em;
   }
 }
 a {

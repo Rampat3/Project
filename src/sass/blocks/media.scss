@@ -75,3 +75,29 @@
     }
   }
 }
+
+//Header -- Promo
+
+@media (max-width: 1000px) {
+    .promo{
+      &__header{
+        width: 550px;
+        margin: auto;
+        &-text{
+          & h1{
+            font-size: 45px;
+          }
+          & img{
+            width: 320px;
+            margin: -227px 0px 0px 30px;
+          }
+        }
+
+        &-form{
+          & button{
+            width: 10em;
+          }
+        }
+      }
+    }
+}

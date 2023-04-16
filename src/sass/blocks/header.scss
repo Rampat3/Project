@@ -130,6 +130,14 @@ header{
 
 //Promo
 .promo{
+  &__bg{
+      background: url("../img/header.jpg");
+      background-size: cover;
+      height: 880px;
+
+      //display: flow-root;
+    }
+
   &__header{
     width: 700px;
     margin: auto;
