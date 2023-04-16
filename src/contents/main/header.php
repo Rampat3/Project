@@ -79,7 +79,8 @@
     <div class="promo__header">
         <div class="promo__header-text">
             <h1 class="title__text promo__header-title">All-in-one dashboard for eCommerce</h1>
-            <img src="../../img/line.png" alt="">
+            <img src="../src/img/line.png" alt="">
+<!--            <canvas id="graph" width="450" height="50"></canvas>-->
             <p class="title__text-p">Itech helps you unify your brand identity by collecting, storing and distributing design tokens and assets - automatically.</p>
             <form class="promo__header-form" action="#">
                 <input type="text" placeholder="Your email address">
