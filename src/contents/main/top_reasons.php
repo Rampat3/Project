@@ -47,4 +47,32 @@
             <img src="../src/img/optimized-img.jpg" alt="">
         </div>
     </div>
+    <div class="TopReasons__wrapper-gateways">
+        <div class="TopReasons__wrapper-gateways-text">
+            <div class="TopReasons__wrapper-title title__text"  style="display: unset">
+                100+ Payment <p class="title__text-bg" style="width: 8ch;">GateWays</p>
+            </div>
+            <div class="TopReasons__wrapper-optimized-p" style="margin: 50px 0 0 0">
+                <p class="title__text-p">
+                    With Itech Marketplace, choose from hundreds of payment
+                    gateways for your customers. From PayPal to Stripe to
+                    Skrill, Visa Debit, Master Card, etc
+                </p>
+            </div>
+            <div class="TopReasons__wrapper-gateways-list">
+                <ul>
+                    <li><p>100% Guarantee Secure Payment</p></li>
+                    <li><p>1% Extra Frees For All</p></li>
+                    <li><p>Support Dispute & Refund 24/7</p></li>
+                </ul>
+            </div>
+            <div class="TopReasons__wrapper-gateways-button">
+                <button type="button">Book A Free Demo</button>
+            </div>
+        </div>
+        <div class="TopReasons__wrapper-gateways-img">
+            <img src="../src/img/gateways.jpg" alt="">
+        </div>
+
+    </div>
 </div>
