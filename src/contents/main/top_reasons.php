@@ -25,7 +25,7 @@
     <div class="TopReasons__wrapper-optimized">
         <div class="TopReasons__wrapper-optimized-text">
             <div class="TopReasons__wrapper-optimized-title title__text">
-                Optimized User <p class="title__text-bg" style="width: 35vh">Experiences</p>
+                Optimized User <p class="title__text-bg">Experiences</p>
             </div>
             <div class="TopReasons__wrapper-optimized-p">
                 <p class="title__text-p">
