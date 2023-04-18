@@ -402,6 +402,14 @@ header {
   .TopReasons__wrapper-optimized-img {
     width: unset;
   }
+  .TopReasons__wrapper-gateways {
+    flex-direction: column;
+    text-align: -webkit-center;
+    align-items: center;
+  }
+  .TopReasons__wrapper-gateways-text {
+    width: 55%;
+  }
 }
 @media (max-width: 800px) {
   .TopReasons {

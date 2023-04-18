@@ -194,6 +194,14 @@
           }
         }
       }
+      &-gateways{
+        flex-direction: column;
+        text-align: -webkit-center;
+        align-items: center;
+        &-text{
+          width: 55%;
+        }
+      }
     }
   }
 }
