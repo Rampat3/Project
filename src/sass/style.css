@@ -137,9 +137,6 @@ header {
   display: flex;
   justify-content: center;
 }
-.TopReasons__wrapper-title p {
-  margin: 0 10px;
-}
 .TopReasons__wrapper-text {
   display: flex;
   justify-content: center;
@@ -276,6 +273,28 @@ header {
 .TopReasons__wrapper-gateways-img img {
   width: 100%;
 }
+.TopReasons__wrapper-customizable {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0 0 0;
+}
+.TopReasons__wrapper-customizable-text {
+  width: 33%;
+}
+.TopReasons__wrapper-customizable-marketplace {
+  display: flex;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+.TopReasons__wrapper-customizable-marketplace:before {
+  content: url("../icons/icons-owners.jpg");
+}
+.TopReasons__wrapper-customizable-img {
+  margin: 30px 0 0 0;
+}
+.TopReasons__wrapper-customizable-img img {
+  width: 100ch;
+}
 
 @media (max-width: 1800px) {
   .header {
@@ -384,6 +403,12 @@ header {
   .TopReasons__wrapper-optimized-title p {
     width: 83%;
   }
+  .TopReasons__wrapper-customizable-img {
+    width: 62%;
+  }
+  .TopReasons__wrapper-customizable-img img {
+    width: auto;
+  }
 }
 @media (max-width: 1000px) {
   .TopReasons {
@@ -409,6 +434,20 @@ header {
   }
   .TopReasons__wrapper-gateways-text {
     width: 55%;
+  }
+  .TopReasons__wrapper-customizable {
+    flex-direction: column;
+  }
+  .TopReasons__wrapper-customizable-text {
+    width: 50%;
+    margin: auto;
+    text-align: -webkit-center;
+  }
+  .TopReasons__wrapper-customizable-img {
+    width: 62%;
+  }
+  .TopReasons__wrapper-customizable-img img {
+    width: auto;
   }
 }
 @media (max-width: 800px) {

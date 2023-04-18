@@ -166,6 +166,14 @@
           }
         }
       }
+      &-customizable{
+        &-img{
+          width: 62%;
+          & img{
+            width: auto;
+          }
+        }
+      }
     }
   }
 }
@@ -200,6 +208,21 @@
         align-items: center;
         &-text{
           width: 55%;
+        }
+      }
+      &-customizable{
+        flex-direction: column;
+        &-text{
+          width: 50%;
+          margin: auto;
+
+          text-align: -webkit-center;
+        }
+        &-img{
+          width: 62%;
+          & img{
+            width: auto;
+          }
         }
       }
     }

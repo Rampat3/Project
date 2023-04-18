@@ -1,6 +1,6 @@
 <div class="TopReasons__wrapper">
     <div class="TopReasons__wrapper-title title__text">
-        Top <p class="title__text-bg">Reasons</p>
+        Top <p class="title__text-bg" style="margin: 0 10px">Reasons</p>
     </div>
     <div class="TopReasons__wrapper-text">
         <p class="title__text-p">Unify your business data in one simple ecommerce dashboard</p>
@@ -73,6 +73,29 @@
         <div class="TopReasons__wrapper-gateways-img">
             <img src="../src/img/gateways.jpg" alt="">
         </div>
-
+    </div>
+    <div class="TopReasons__wrapper-customizable">
+        <div class="TopReasons__wrapper-customizable-text">
+            <div class="TopReasons__wrapper-title title__text" style="display: unset">
+                Easy To <p class="title__text-bg" style="width: 11ch">Customizable</p>
+            </div>
+            <div class="TopReasons__wrapper-optimized-p" style="margin: 50px 0 0 0">
+                <p class="title__text-p">
+                    Dashboards are meant to be personal tools for website managers and suppliers to enjoy, and are therefore largely modifiable.
+                </p>
+                <p class="title__text-p" style="margin: 50px 0 0 0">
+                    When it comes to customer actions, website administrators can choose the permissions of each supplier, allowing them to limit or empower commerce activity as needed.
+                </p>
+            </div>
+            <div class="TopReasons__wrapper-customizable-marketplace">
+                <ul>
+                    <li class="title__text title__text-bg" style="background: none; font-size: 35px; margin: auto">42,500+</li>
+                    <li style="font-size: 13px">MARKETPLACE OWNERS TRUST US</li>
+                </ul>
+            </div>
+        </div>
+        <div class="TopReasons__wrapper-customizable-img">
+            <img src="../src/img/customizable.jpg" alt="">
+        </div>
     </div>
 </div>
