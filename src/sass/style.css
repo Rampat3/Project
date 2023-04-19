@@ -296,6 +296,15 @@ header {
   width: 100ch;
 }
 
+.business__wrapper-title-header {
+  display: flex;
+  justify-content: center;
+}
+.business__wrapper-title-text {
+  text-align: -webkit-center;
+  margin: 25px 0 50px 0;
+}
+
 @media (max-width: 1800px) {
   .header {
     width: 1600px;
