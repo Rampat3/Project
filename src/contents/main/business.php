@@ -15,25 +15,36 @@
             </p>
         </div>
     </div>
-<!--    <div class="business__wrapper-carousel carousel">-->
-<!--        <div class="carousel__item">-->
-<!--          <div class="carousel__swiper-container">-->
-<!--              <div class="carousel__swiper-wrapper">-->
-<!--                  <div class="carousel__swiper-slide">Slide 1</div>-->
-<!--                  <div class="carousel__swiper-slide">Slide 2</div>-->
-<!--                  <div class="carousel__swiper-slide">Slide 3</div>-->
-<!--              </div>-->
-<!--              <div class="carousel__swiper-wrapper">-->
-<!--                  <div class="carousel__swiper-slide">Slide 4</div>-->
-<!--                  <div class="carousel__swiper-slide">Slide 5</div>-->
-<!--                  <div class="carousel__swiper-slide">Slide 6</div>-->
-<!--              </div>-->
-<!---->
-<!--              <div class="carousel__swiper-button-prev"></div>-->
-<!--              <div class="carousel__swiper-button-next"></div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="business__wrapper-carousel carousel wrapper">
+        <div class="carousel__item item">
+            <div class="carousel__swiper-container swiper-container" style="display: flex; flex-direction: column">
+                <div class="carousel__swiper-wrapper swiper-wrapper">
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                </div>
+                <div class="carousel__swiper-wrapper-bottom swiper-wrapper">
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -49,7 +60,7 @@
         background: #d3d3d3;
     }
     .item /*carousel__item*/ {
-        height: 250px;
+        height: auto;
         width: 100%;
         background: #fff;
 
@@ -59,32 +70,13 @@
         height: 100%;
     }
     .swiper-slide /*carousel__swiper-slide*/{
-        width: 100%;
+        /*width: 100%;*/
         display: flex;
         align-items: center;
         justify-content: center;
     }
 </style>
 
-<div class="wrapper">
-    <div class="item">
-        <div class="swiper-container" style="display: flex; flex-direction: column">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-            </div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-            </div>
-
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
-</div>
 
 <script>
     var mySwiper = new Swiper ('.swiper-container', {

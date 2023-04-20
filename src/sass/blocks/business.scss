@@ -14,3 +14,35 @@
     }
   }
 }
+.carousel{
+  margin-bottom: 250px;
+  &__item{
+
+  }
+  &__swiper{
+    &-wrapper{
+      &-bottom{
+        margin: 10px 0px 0px -125px;
+      }
+    }
+    &-slide{
+      width: 250px;
+
+      border: 1px solid #e6e6e6;
+      border-radius: 15px;
+      padding: 50px;
+
+      margin: 0 25px 0 0;
+
+      &-bottom{
+        width: 250px;
+
+        border: 1px solid #e6e6e6;
+        border-radius: 15px;
+        padding: 50px;
+
+        margin: 0 25px 0 0;
+      }
+    }
+  }
+}

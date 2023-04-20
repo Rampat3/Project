@@ -305,6 +305,27 @@ header {
   margin: 25px 0 50px 0;
 }
 
+.carousel {
+  margin-bottom: 250px;
+}
+.carousel__swiper-wrapper-bottom {
+  margin: 10px 0px 0px -125px;
+}
+.carousel__swiper-slide {
+  width: 250px;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 0 25px 0 0;
+}
+.carousel__swiper-slide-bottom {
+  width: 250px;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 0 25px 0 0;
+}
+
 @media (max-width: 1800px) {
   .header {
     width: 1600px;
