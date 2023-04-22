@@ -19,28 +19,32 @@
         <div class="carousel__item item">
             <div class="carousel__swiper-container swiper-container" style="display: flex; flex-direction: column">
                 <div class="carousel__swiper-wrapper swiper-wrapper">
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                    <div class="swiper-slide">
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>vf
+                    </div>
                 </div>
                 <div class="carousel__swiper-wrapper-bottom swiper-wrapper">
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                    <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                    <div class="swiper-slide">
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,6 +79,7 @@
         align-items: center;
         justify-content: center;
     }
+
 </style>
 
 
@@ -83,4 +88,11 @@
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     })
+
 </script>
+
+
+
+
+
+
