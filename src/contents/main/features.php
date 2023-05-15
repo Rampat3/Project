@@ -6,7 +6,7 @@
         <div class="features__wrapper-title-text">
             <p class="title__text-p">
                 Itech Dashboard is a powerhouse when it comes to the feature list. This ensures you have every functionality
-                you need to build, run, and expand your marketplace
+                you need to build, run, and expand your marketplace.
             </p>
         </div>
     </div>
