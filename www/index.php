@@ -22,7 +22,12 @@
         </section>
         <section class="business">
             <?php
-            include "../src/contents/main/business.php"
+            include "../src/contents/main/business.php";
+            ?>
+        </section>
+        <section class="features" style=>
+            <?php
+            include '../src/contents/main/features.php';
             ?>
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

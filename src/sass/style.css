@@ -326,6 +326,30 @@ header {
   margin: 0 25px 0 0;
 }
 
+.features {
+  background: #f2f7fd;
+  padding: 50px 0;
+}
+.features__wrapper {
+  width: 1500px;
+  margin: auto;
+}
+.features__wrapper-title {
+  margin: 150px 0 0 0;
+}
+.features__wrapper-title-header {
+  display: flex;
+  justify-content: center;
+}
+.features__wrapper-title-text {
+  margin: 15px 0 50px 0;
+}
+.features__wrapper-title-text p {
+  width: 135vh;
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 1800px) {
   .header {
     width: 1600px;
