@@ -103,32 +103,74 @@
     <div class="carousel__item carousel-inner item">
         <div class="carousel__swiper-container swiper-container" style="display: flex; flex-direction: column">
             <div class="carousel__swiper-wrapper swiper-wrapper">
-                <div class="carousel-item  active">
-                    <div class="top" style="display: flex; margin: 0 -75px 0 0;">
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                    </div>
-                    <div class="bottom" style="display: flex; margin: 15px 0 0 0;">
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
-                        <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                <div class="swiper-slide">
+                    <div class=" carousel-item  active">
+                        <div class="top" style="display: flex; margin: 0 -75px 0 0;">
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        </div>
+                        <div class="bottom" style="display: flex; margin: 15px 0 0 0;">
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">
+                    <div class=" carousel-item">
+                        <div class="top" style="display: flex; margin: 0 -75px 0 0;">
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        </div>
+                        <div class="bottom" style="display: flex; margin: 15px 0 0 0;">
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">
+                    <div class="carousel-item">
+                        <div class="top" style="display: flex; margin: 0 -75px 0 0;">
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                        </div>
+                        <div class="bottom" style="display: flex; margin: 15px 0 0 0;">
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-2.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-1.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-4.jpg" alt=""></div>
+                            <div class="carousel__swiper-slide-bottom"><img src="../src/img/sponsors/spons-3.jpg" alt=""></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
