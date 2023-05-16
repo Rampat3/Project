@@ -328,7 +328,7 @@ header {
 
 .features {
   background: #f2f7fd;
-  padding: 50px 0;
+  padding: 5px 0 100px 0;
 }
 .features__wrapper {
   width: 1500px;
@@ -353,6 +353,7 @@ header {
 .catalogs {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 100px 0 0 0;
 }
 .catalogs__wrapper {
@@ -393,6 +394,39 @@ header {
   text-decoration: none;
   color: black;
   transition: 0.5s;
+}
+
+.kick-start {
+  width: 1400px;
+  margin: auto;
+}
+.kick-start__wrapper-title {
+  text-align: center;
+}
+.kick-start__wrapper-title-header {
+  display: flex;
+  justify-content: center;
+}
+
+.table__title {
+  text-align: -webkit-center;
+}
+.table__title ul {
+  display: flex;
+  width: 35%;
+  border: none;
+  background: #ecf0f9;
+  border-radius: 50px;
+  padding: 15px 30px;
+}
+.table__title ul li {
+  margin: 0 50px;
+  list-style-type: none;
+}
+
+.table__title-price-y li {
+  background-color: white;
+  border-radius: 50px;
 }
 
 @media (max-width: 1800px) {
