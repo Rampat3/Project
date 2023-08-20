@@ -424,11 +424,6 @@ header {
   list-style-type: none;
 }
 
-.table__title-price-y li {
-  background-color: white;
-  border-radius: 50px;
-}
-
 @media (max-width: 1800px) {
   .header {
     width: 1600px;
